@@ -5,12 +5,29 @@ body{
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a{
     text-decoration: none;
     color:#F9FAF8;
 }
+
+button{
+    align-self: flex-start;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    padding:20px;
+}
+
 
 .hero{
     background-color: #1F2937;
@@ -20,6 +37,11 @@ a{
 .logo{
     size: 24px;
     color: #F9FAF8;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
 }
 
 .awesome_primary{
@@ -33,32 +55,105 @@ a{
     color: #F9FAF8;
 }
 
-.footer{
-    background-color: #1F2937;
-    color:#F9FAF8;
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px;
+    padding: 20px;
+    flex:1;
 }
 
-.action{
-    background-color: #3882F6;
-    color: #F9FAF8;
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.action button{
-    background-color: #3882F6;
-    color:#F9FAF8;
-    border-radius: 5px;
-}
 
 .info{
     size: 36px;
     color:#1F2937;
     font-weight:900;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_container p{
+    text-align: center;
+}
+
+.img_container img{
+    max-width: 100%;
 }
 .quote{
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    text-align: center;
+    margin:50px;
 }
 .quote blockquote{
     font-size: 36px;
     font-style: italic;
+}
+
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px;
+}
+
+.blue_banner{
+  background-color: #3882F6;
+  padding: 60px 100px;
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.blue_banner_button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+}
+
+.action_text{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    margin:50px;
+    padding: 20px;
+    border:5px;
+    text-align: center;
 }
